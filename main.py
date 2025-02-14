@@ -48,3 +48,7 @@ print()
 print(list(x.values()))
 print()
 print(list(x.items()))
+print()
+
+for key in x:
+    print(key, x[key])

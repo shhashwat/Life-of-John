@@ -2,7 +2,6 @@ x = {
     "name": "John",
     "age": 30,
     "married": True,
-    "divorced": False,
     "children": ("Ann", "Billy"),
     "pets": None,
     "cars": [
@@ -10,6 +9,8 @@ x = {
         {"model": "Ford Edge", "mpg": 24.1}
     ]
 }
+
+x['divorced'] = True
 
 married_status = ''
 divorced_status = ''

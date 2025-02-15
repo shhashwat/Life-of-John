@@ -1,11 +1,5 @@
-def func(x,y):
-    print(x,y)
-
-x = [(1,2),(3,4),(5,6)]
-
-for x in x:
-    func(*x)
-
-print()
-
-func(**{'x':1,'y':2})
+def  func(*args, **kwargs):
+    print(*args)
+    print(args, kwargs)
+    
+func(1,2,3,4,5, one=0, two='yes')

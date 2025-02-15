@@ -1,9 +1,11 @@
-def func(x):
-    def func2(y):
-        print(x + y)
-    return func2
+def func(x,y):
+    print(x,y)
 
-x = func(5)
-x(3)
+x = [(1,2),(3,4),(5,6)]
 
-func(1)(9)
+for x in x:
+    func(*x)
+
+print()
+
+func(**{'x':1,'y':2})

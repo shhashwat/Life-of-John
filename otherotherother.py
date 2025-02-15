@@ -1,9 +1,4 @@
-x = 'tim'
-
-def getName(name):
-    global x
-    x = name
-
+x = [x for x in range(10)]
 print(x)
-getName('bob')
-print(x)
+mp = filter(lambda i: i%2 == 0, x)
+print(list(mp))
